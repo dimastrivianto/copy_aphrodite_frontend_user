@@ -1,0 +1,187 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    /* memasukkan font google di style */
+    font-family: 'Poppins', sans-serif;
+  
+}
+
+/* -------------------- Icon Logo Brand */
+.iconLogo{
+    font-family: 'Bree Serif', serif;
+    font-size: 26px;
+    color: #EC4B8A;
+}
+
+/* ---------------- Navbar Header*/
+.titikhitam{
+    list-style-type: none; 
+}
+
+.titikhitam a{
+    color: #EC4B8A;
+    font-size: 1.25rem;
+}
+
+.titikhitam:hover a{
+    color: #00FFEF;
+}
+
+nav .row{
+    margin-left: 0;
+    margin-right: 0;
+}
+nav .col-12{
+    padding-right: 0;
+    padding-left: 0;
+}
+nav .col-3{
+    padding-right: 0;
+    padding-left: 0;
+}
+.nav-item.active a{
+    color: #EC4B8A !important;
+    font-weight: 600;
+}
+.nav-item:hover a{
+    color: #EC4B8A !important;
+    font-weight: 600;
+}
+
+/* ---------------- Item Product */
+.itemProduct{
+    position: relative;
+}
+.itemProduct .clickLove{
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    top: 7px;
+    right: 7px;
+    background-color: white;
+    opacity: .80;
+
+}
+.itemProduct .iconLove{
+    position: absolute;
+    color: red;
+    top: 7px;
+    right: 7px;
+}
+.card-body{
+    padding: 0;
+}
+
+.itemProduct-Title{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1rem;
+    margin: 5px;
+    margin-left: 10px;
+    margin-bottom: .25rem;
+    max-height: 2rem;
+}
+.itemProduct-Price{
+    font-weight: 500;
+    font-size: 14px;
+    margin-top: -2px;
+    margin-left: 10px;
+    margin-bottom: 0;
+    color: #EC4B8A;
+}
+.itemProduct-Rating{
+    font-weight: 300;
+    color: #b6b5b5;
+    margin-left: 8px;
+    margin-bottom: 5px;
+}
+
+.btn-outline-beli{
+    width: 70%;
+    color: #EC4B8A;
+    border-color: #EC4B8A;
+    font-size: .70rem;
+    padding: .20rem!important;
+}
+
+.btn-outline-search{
+    width: 100%;
+    height: 2rem;
+    color: #EC4B8A;
+    border-color: #EC4B8A;
+    font-size: 1rem;
+    padding: .20rem!important;
+}
+
+.btn-outline-reset{
+    width: 100%;
+    height: 2rem;
+    color: #00FFEF;
+    border-color: #00FFEF;
+    font-size: 1rem;
+    padding: .20rem!important;
+    margin-top: 10px;
+}
+
+
+/* ---------------- Pagination */
+.pagination {
+    margin: 15px auto;
+    display: flex;
+    list-style: none;
+    outline: none;
+  }
+  .pagination > .active > a{
+    background-color: #47ccde ;
+    border-color: #47ccde ;
+    color: #fff;
+  }
+  .pagination > li > a{
+    border: 1px solid #47ccde ;
+    padding: 5px 10px;
+    outline: none;
+    cursor: pointer;
+  }
+  .pagination > .active > a, .pagination > .active > span, .pagination > .active > a:hover, .pagination > .active > span:hover, .pagination > .active > a:focus, .pagination > .active > span:focus{
+    background-color: #47ccde ;
+    border-color: #47ccde;
+    outline: none ;
+  }
+  .pagination > li > a, .pagination > li > span{
+    color: #47ccde
+  }
+  .pagination > li:first-child > a, .pagination > li:first-child > span, .pagination > li:last-child > a, .pagination > li:last-child > span{
+    border-radius: unset
+  }
+
+/* ---------------- Footer */
+.button-no-style{
+    background: none;
+	color: black;
+	border: none;
+	padding: 0;
+	font: inherit;
+	cursor: pointer;
+    outline: inherit;
+    font-weight: 300;
+}
+
+.footer-link{
+    border-bottom: none;
+    padding: 0;
+    margin-bottom: 8px;
+}
+
+.carousel-item img{
+    height: 400px;
+    width: 90%;
+}
+
+#carouselExampleIndicators {
+    width: 90%;
+}
